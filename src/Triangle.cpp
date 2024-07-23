@@ -1,0 +1,26 @@
+// Triangle.cpp: implementation of the Triangle class.
+//
+//////////////////////////////////////////////////////////////////////
+
+#include "stdafx.h"
+#include "Triangle.h"
+
+#ifdef _DEBUG
+#undef THIS_FILE
+static char THIS_FILE[]=__FILE__;
+#define new DEBUG_NEW
+#endif
+
+//////////////////////////////////////////////////////////////////////
+// Construction/Destruction
+//////////////////////////////////////////////////////////////////////
+
+Triangle::Triangle()
+{
+	SmoothingGroup = 0;
+}
+
+Triangle::~Triangle()
+{
+
+}
